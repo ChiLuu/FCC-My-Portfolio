@@ -10,71 +10,130 @@
 </head>
 <body>
     <div class="navbar">
-        <a href="#">CONTACT</a>
-        <a href="#my_portfolio">PORTFOLIO</a>
-        <a href="#about_me">ABOUT</a>
-    </div>
-    <!-- This is demonstration of pure CSS-->
-    <div class="aboutmecontainer">
-        <div class="mysignature">
-            <b>CL</b>
-        </div>
-        <div class="aboutme" id="about_me">
-            <span class="bubble1"></span>
-            <span class="bubble2"></span>
-            <span class="bubble3"></span>
-            <span class="bubble4"></span>
-            <span class="bubble5"></span>
-            <div class="content">
-                <div class="mycontents">
-                    <div class="myitems">
-                        <h2>Chi Luu</h2>
-                        <h4>Junior Web Developer</h4> 
-                        <ul class="itemlist">
-                            <li>Enjoy coding</li>
-                            <li>Loves boardgames</li>
-                            <li>Flames Fan</li>
-                            <li>Wants to travel the world</li>
-                        </ul>
-                    </div>
-                    <div class="mypiccontainer">
-                        <img class="myimage" src="Chi_selfie.png" alt="A picture of myself.">
-                    </div>
-                    <div class="qrcontainer">
-                        <img class="myqr" src="qrcode.png" alt="myqrcode">
-                        <p>Contact Me</p>
-                    </div> 
+        <ul>
+          <li><a href="#Contact">CONTACT</a></li>
+          <li><a href="#Portfolio">PORTFOLIO</a></li>
+          <li><a href="#MainContent">ABOUT</a></li>
+        </ul>
+      </div>
+      
+      <div class="row" id="MainContent">
+        <div class="col-md-1"></div>
+        
+         <div class="col-md-10">
+            <div id="About">
+              <div class="row ">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-7">  
+                  <h2>Chi Luu</h2>
+                  <h4>Web Developer</h4> 
+                  <ul class="itemlist">
+                    <li>Enjoys coding</li>
+                    <li>Loves boardgames</li>
+                    <li>Flames Fan</li>
+                    <li>Wants to travel the world</li>
+                    </ul>
                 </div>
+                <div class="col-sm-3 MyPic">
+                  <img class="img-responsive" src="https://pbs.twimg.com/profile_images/992265074495533062/ZqyFsR0I_400x400.jpg" alt="My Picture">
+                </div>
+                <div class="col-sm-1"></div> 
+              </div>
             </div>
-        </div>     
-    </div>  
-    <!-- This is with Flexbox -->
-    <div class="myportfoliocontainer" id="my_portfolio">
-        <h2>MY PORTFOLIO</h2>
-        <div class="flix-container">
-            <ul class="flex-container">
-                <li class="flex-item">Tribute Page<a target="_blank" href="https://codepen.io/Geez2k/pen/zjNLLV"><img src="https://lungchuak.files.wordpress.com/2016/10/cai-lun-the-inventor-of-paper.jpg?w=625" alt="Free Code Camp Project #1: Tribute Page"></a></li>
-                <li class="flex-item">My Introduction<a target="_blank" href="https://codepen.io/Geez2k/pen/ELZpQz"><img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Ftwitter.com%2Fcluu674&chs=180x180&choe=UTF-8&chld=L|2" alt="My Introduction Webpage"></a></li>
-                <li class="flex-item">Place Holder<a target="_blank" href="https://www.youtube.com/watch?v=Os9WyjfIkzk"><img src="https://www.fillmurray.com/300/200" alt="Place Holder Image"></a></li>
-                <li class="flex-item">Place Holder<a target="_blank" href="https://www.youtube.com/watch?v=6tQ-r21jQv0"><img src="https://www.fillmurray.com/460/300" alt="Place Holder Image"></a></li>
-                <li class="flex-item">Place Holder<a target="_blank" href="https://www.youtube.com/watch?v=oHg5SJYRHA0"><img src="https://kbob.github.io/images/sample-1.jpg" alt="Place Holder Image"></a></li>
-                <li class="flex-item">Place Holder<a target="_blank" href="https://www.youtube.com/watch?v=oHg5SJYRHA0"><img src="https://kbob.github.io/images/sample-1.jpg" alt="Place Holder Image"></a></li>
-            </ul>
+            <div class="container-fluid text-center" id="Portfolio">
+              
+              <div class="text-center"><h2>MY PORTFOLIO</h2></div>
+              
+              <div class="row project-rows">
+                  <div class="col-sm-1"></div>
+                  <div class="col-sm-5">
+                    
+                    <div>Pomodoro Clock</div>     
+                    <div><a target="_blank" href="https://codepen.io/Geez2k/full/JvQjRB/"><img src="https://images.unsplash.com/photo-1446937179942-7fcfab24fb81?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9076b624a6c70fe27124c23a3f5684c4&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb" alt="Pomodoro Clock"></a></div>
+                    
+                  </div>
+                  <div class="col-sm-5 ">
+                    
+                    <div>JavaScript Calculator</div>
+                    <div><a target="_blank" href="https://codepen.io/Geez2k/full/ELzaLV/"><img src="http://bsnscb.com/data/out/31/39937851-calculator-wallpapers.png" alt="JavaScript Calculator Preview"></a></div>
+                    
+                  </div>
+                  <div class="col-sm-1"></div>
+              </div>
+              
+              <div class="row project-rows">
+                  <div class="col-sm-1"></div>
+                  <div class="col-sm-5">
+                    
+                    <div>Twitch TV</div>     
+                    <div><a target="_blank" href="https://codepen.io/Geez2k/full/jxpGGj/"><img src="https://images8.alphacoders.com/856/856742.jpg" alt="Twitch TV Preview"></a></div>
+                    
+                  </div>
+                  <div class="col-sm-5 ">
+                    
+                    <div>Wiki Viewer</div>
+                    <div><a target="_blank" href="https://codepen.io/Geez2k/full/XqExZV/"><img src="https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-0.3.5&s=45c5cf82d2ba1d33849dcd0b678ec566&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb" alt="Wiki Viewer Preview"></a></div>
+                    
+                  </div>
+                  <div class="col-sm-1"></div>
+              </div>
+              
+              <div class="row project-rows">
+                  <div class="col-sm-1"></div>
+                  <div class="col-sm-5">
+                    
+                    <div>Weather App</div>
+                    <div><a target="_blank" href="https://codepen.io/Geez2k/full/VxQGOE/"><img src="https://mylittleangelspreschool.com/images/stories/SY17-18/weatherclipart.png" alt="Weather App Preview"></a></div>
+                    
+                  </div>
+                  <div class="col-sm-5">
+                    
+                    <div>Random Quote Generator</div>
+                    <div><a target="_blank" href="https://codepen.io/Geez2k/full/gzoeNd"><img src="http://www.wolfandgarden.com/wp-content/uploads/2016/09/quote-marks1.png" alt="My Random Quote Generator"></a></div>
+                    
+                  </div>
+                  <div class="col-sm-1"></div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-1"></div>
+                  <div class="col-sm-5">
+                    
+                    <div>My Introduction</div>
+                    <div><a target="_blank" href="https://codepen.io/Geez2k/full/ELZpQz"><img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Ftwitter.com%2Fcluu674&chs=180x180&choe=UTF-8&chld=L|2" alt="My Introduction Webpage"></a></div>
+                  </div>
+                
+                  <div class="col-sm-5">
+                    
+                    <div>Tribute Page</div>
+                    <div><a target="_blank" href="https://codepen.io/Geez2k/full/zjNLLV"><img src="https://lungchuak.files.wordpress.com/2016/10/cai-lun-the-inventor-of-paper.jpg?w=625" alt="Free Code Camp Project #1: Tribute Page"></a></div>
+                    
+                  </div>
+                  <div class="col-sm-1"></div>
+                  
+              </div>
+            </div>
+           <div id="Contact">
+             <div class="text-center"><h2>Contact Me</h2></div>
+             <div class="row container-fluid">
+               <div class="col-sm-2"></div>
+               <div class="col-sm-4 contactinfo">
+                 <div id="contactMessage">Please feel free to contact me via these social media links to the right.</div>
+               </div>
+               <div class="col-sm-2"></div>
+               <div class="col-sm-3">
+                 <ul>
+                   <li><a href="https://www.facebook.com/chi.b.luu" target="_blank"><div class="fa fa-facebook" target="_blank"></div>FaceBook</a></li>
+                   <li><a href="https://twitter.com/cluu674" target="_blank"><div class="fa fa-twitter"></div>Twitter</a></li>
+                   <li><a href="https://github.com/geez2k" target="_blank"><div class="fa fa-github" target="_blank"></div>github</a></li>
+                   <li><a href="mailto:cluu674@gmail.com?Subject=Nice%20webpage" target="_top"><div class="fa fa-google" target="_blank"></div>Email: cluu674@gmail.com</a></li>
+                 </ul>
+               </div>
+               <div class="col-sm-1"></div>
+             </div>
+           </div>
         </div>
-    </div>
-    <div class="mycontact" id="my_contact">
-        <h2>CONTACT ME</h2>
-        <div class="contactmsg">
-            <p>Please feel free to contact me with one of the links below</p>
-        </div>
-        <div class="contacttypes">
-            <ul>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">FaceBook</a></li>
-                <li><a href="#">github</a></li>
-                <li>Email: cluu674@gmail.com</li>
-            </ul>
-        </div>        
-    </div>
+        <div class="col-md-1"></div>
+        
+      </div>
 </body>
 </html>
